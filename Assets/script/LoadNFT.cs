@@ -52,7 +52,8 @@ public class LoadNFT : MonoBehaviour
         //Starts async function to get the NFT image
         GetNFTImage();
     }
-
+   
+   
     async private void GetNFTImage()
     {
         //Interacts with the Blockchain to find the URI related to that specific token
