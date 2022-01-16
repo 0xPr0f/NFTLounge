@@ -36,7 +36,7 @@ public class LoadNFT : MonoBehaviour
 
     // The current connect account
     //string Address = PlayerPrefs.GetString("Account");
-//    string Address = "0x772A4f348d85FDd00e89fDE4C7CAe8628c8DAd19";
+    //    string Address = "0x772A4f348d85FDd00e89fDE4C7CAe8628c8DAd19";
     //The network to interact with (mainnet, testnet)
     private string network = "testnet";
     //Contract to interact with, contract below is "Project: Pigeon Smart Contract
@@ -52,8 +52,8 @@ public class LoadNFT : MonoBehaviour
         //Starts async function to get the NFT image
         GetNFTImage();
     }
-   
-   
+
+    public void RefreshMetadata() => GetNFTImage();
     async private void GetNFTImage()
     {
         //Interacts with the Blockchain to find the URI related to that specific token
