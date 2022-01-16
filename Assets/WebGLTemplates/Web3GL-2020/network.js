@@ -20,5 +20,5 @@ Used to set the network
 1666600000 Harmony Mainnet Shard0
 */
 
-window.web3NetworkId = 80001 || 4;
+window.web3NetworkId = 80001;
 window.infuraKey = "2d0062a43e9e4086829df115488b45a8";
