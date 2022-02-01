@@ -53,7 +53,7 @@ public class LoadNFT : MonoBehaviour
         GetNFTImage();
     }
 
-    public void RefreshMetadata() => GetNFTImage();
+    public void RefreshMetadata() { GetNFTImage(); }
     async private void GetNFTImage()
     {
         //Interacts with the Blockchain to find the URI related to that specific token

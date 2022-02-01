@@ -13,7 +13,8 @@ public class GetAccount : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string Address = PlayerPrefs.GetString("Account");
+        // string Address = PlayerPrefs.GetString("Account");
+        string Address = "0x772A4f348d85FDd00e89fDE4C7CAe8628c8DAd19";
         if (Address.Length > 30)
         {
             string FirstNO = Address.Substring(0, 7);
@@ -24,7 +25,8 @@ public class GetAccount : MonoBehaviour
         }
 
         // AccountWorld.text = Address;
-        AccountWorld.text = PlayerPrefs.GetString("Account");
+        // AccountWorld.text = PlayerPrefs.GetString("Account");
+        AccountWorld.text = "0x772A4f348d85FDd00e89fDE4C7CAe8628c8DAd19";
     }
 
     // Update is called once per frame
